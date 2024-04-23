@@ -6,6 +6,10 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+export const config = {
+  maxDuration: 240
+}
+
 export default function App() {
   return (
     <html>

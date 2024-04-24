@@ -2,7 +2,7 @@
   "name": "verceltest",
   "private": true,
   "scripts": {
-    "build": "vite build && vite build --ssr",
+    "build": "remix vite:build",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
@@ -31,6 +31,7 @@
     "@shopify/shopify-api": "^9.5.1",
     "@shopify/shopify-app-remix": "^2.5.0",
     "@shopify/shopify-app-session-storage-prisma": "^4.0.2",
+    "@vercel/remix": "^2.9.0",
     "isbot": "^5.1.0",
     "prisma": "^5.11.0",
     "react": "^18.2.0",
